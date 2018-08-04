@@ -1,0 +1,4 @@
+# TenMinutesWithTelusko
+
+
+App under Development

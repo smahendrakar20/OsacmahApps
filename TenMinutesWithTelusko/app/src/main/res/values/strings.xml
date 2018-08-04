@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">TenMinutesWithTelusko</string>
+
+
+    <string name="q1">Which of the following would compile without error?</string>
+    <string name="a1">int a = Math.abs(-5);</string>
+    <string name="b1">int b = Math.abs(5.0);</string>
+    <string name="c1">int c = Math.abs(5.5F);</string>
+    <string name="d1">int d = Math.abs(-5.5F);</string>
+
+    <string name="q2">Give the abbreviation of AWT?</string>
+    <string name="a2">Applet Windowing Toolkit</string>
+    <string name="b2">Abstract Windowing Toolkit </string>
+    <string name="c2">Absolute Windowing Toolkit</string>
+    <string name="d2">None of the above</string>
+
+    <string name="q3">Which provides a new way for your programs to interface with code libraries written in other languages?</string>
+    <string name="a3">JNI</string>
+    <string name="b3">JDBC</string>
+    <string name="c3">GUI</string>
+    <string name="d3">RMI</string>
+
+    <string name="q4">Which classes has Sun Microsystem suggested not to use for read and write the textual information?</string>
+    <string name="a4">BufferedInputStream and BufferedOutputStream</string>
+    <string name="b4">SequenceInputStream and SequenceOutputStream</string>
+    <string name="c4">FileInputStream and FileOutputStream</string>
+    <string name="d4">Both A and B</string>
+
+    <string name="q5">Which string function returns the number of characters in a string?</string>
+    <string name="a5">length()</string>
+    <string name="b5">replace()</string>
+    <string name="c5">charAt()</string>
+    <string name="d5">equalIgnoreCase()</string>
+
+    <string name="q6">Which is the correct order of lifecycle in an applet?</string>
+    <string name="a6">Applet is started,initialized,painted,destroyed,stopped</string>
+    <string name="b6">Applet is painted,started,stopped,initilaized,destroyed</string>
+    <string name="c6">Applet is initialized,started,painted,stopped,destroyed</string>
+    <string name="d6">None of the above</string>
+
+    <string name="q7">Which method in thread class causes the currently executing thread object to temporarily pause and allow other threads to execute?</string>
+    <string name="a7">public boolean isAlive()</string>
+    <string name="b7">public int getId()</string>
+    <string name="c7">public void yield()</string>
+    <string name="d7">public boolean isDaemon()</string>
+
+    <string name="q8">Which is a perfect example of runtime polymorphism?</string>
+    <string name="a8">Method overloading</string>
+    <string name="b8">Method overriding</string>
+    <string name="c8">Constructor overloading</string>
+    <string name="d8">None of the above</string>
+
+    <string name="q9">In which the access modifier means that the field can be accessed by all classes in your application?</string>
+    <string name="a9">Package</string>
+    <string name="b9">Protected</string>
+    <string name="c9">Private</string>
+    <string name="d9">Public</string>
+
+    <string name="q10">java.applet defines how many interfaces?</string>
+    <string name="a10">2</string>
+    <string name="b10">3</string>
+    <string name="c10">4</string>
+    <string name="d10">5</string>
+
+    <string name="proceed">proceed</string>
+    <string name="result">Result</string>
+    <string name="start">Start</string>
+
+    <string name="ansr">a1,b2, a3,c4,a5, c6,c7, b8, d9,b10</string>
+    <string name="name">Name</string>
+    <string name="textview">TextView</string>
+    <string name="continue_to_quiz">Continue to Quiz</string>
+    <string name="continue_to_course">Continue to course</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="all_users">All users</string>
+    <string name="create_a_new_account">create a new account</string>
+    <string name="already_have_account">already have account</string>
+    <string name="create_account">Create account</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="display_name">Display name</string>
+    <string name="welcome_to_tenminuteswithtelusco_app">Welcome to TenMinutesWithTelusco app</string>
+    <string name="login_to_your_account">login to your account</string>
+    <string name="login">login</string>
+
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.telusko.learning.tenminuteswithtelusko.Start">
+
+
+    <TextView
+        android:background="@color/colorPrimary"
+        android:id="@+id/tv2"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        android:fontFamily="cursive"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textColor="@color/button"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:background="@android:color/holo_green_dark"
+        android:id="@+id/tvlog"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:fontFamily="cursive"
+        android:text="Sign in"
+        android:textAlignment="center"
+        android:textColor="@color/button"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

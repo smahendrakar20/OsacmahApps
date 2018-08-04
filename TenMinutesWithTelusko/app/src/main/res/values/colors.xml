@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E53935</color>
+    <color name="colorPrimaryDark">#E53935</color>
+    <color name="colorAccent">#303F9F</color>
+    <color name="main_color">#E53935</color>
+    <color name="button">#4527A0</color>
+    <color name="green">#4acc30</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+</resources>
