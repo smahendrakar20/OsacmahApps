@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4481A6</color>
+    <color name="colorPrimaryDark">#4481A6</color>
+    <color name="colorAccent">#4481A6</color>
+    <color name="mediumShadeCreamBlue">#52A1BC</color>
+    <color name="lightShadeCreamBlue">#89C4D8</color>
+    <color name="darkShadeCreamBlue">#41799B</color>
+</resources>

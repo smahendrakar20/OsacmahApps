@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/upperbackblurred"
+
+    >
+
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+      >
+
+        <TextView
+            android:textColor="@android:color/primary_text_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share this code with other players to join!"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:textColor="@android:color/background_dark"
+            android:textColorHint="@android:color/background_dark"
+            android:id="@+id/codeToShareTVId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:hint="CODE!"
+            android:textAlignment="center"
+            android:textSize="50sp" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linearLayout1"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Players who joined the room"
+        android:textColor="@android:color/primary_text_dark"
+        android:textSize="20sp"
+       />
+
+
+    <ListView
+        android:id="@+id/shareCodeListViewId"
+        android:dividerHeight="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/startGameButtonId"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:elevation="5dp"
+        android:transcriptMode="alwaysScroll"
+        tools:listitem="@layout/item_player_joined">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/startGameButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+       android:textStyle="normal"
+        android:text="Start"
+        />
+
+</RelativeLayout>

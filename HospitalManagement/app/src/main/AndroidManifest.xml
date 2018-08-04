@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lrmah.hospitalmanagement">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdminLogin"
+            android:label="Admin Login" />
+        <activity
+            android:name=".DoctorLogin"
+            android:label="Doctor Login" />
+        <activity
+            android:name=".patientLogin"
+            android:label="Patient Login" />
+        <activity
+            android:name=".adminManageDoctors"
+            android:label="Add or Remove Doctor" />
+        <activity
+            android:name=".adminManagePatients"
+            android:label="Add or Remove Patients" />
+        <activity
+            android:name=".adminPage"
+            android:label="Hello Admin" />
+        <activity
+            android:name=".adminManageAllPatients"
+            android:label="All patients" />
+        <activity
+            android:name=".adminManageAllDoctors"
+            android:label="All Doctors" />
+        <activity
+            android:name=".doctors_delete_edit"
+            android:label="Edit or Delete Doctor" />
+
+        <provider
+            android:name=".Data.HospitalProvider"
+            android:authorities="com.example.lrmah.hospitalmanagement1"
+            android:exported="false" />
+        <provider
+            android:name=".Data.HospitalPatientsProvider"
+            android:authorities="com.example.lrmah.hospitalmanagement2"
+            android:exported="false" />
+
+        <activity android:name=".patient_delete_edit" />
+        <activity android:name=".DoctorPage" />
+        <activity android:name=".patientPage" />
+        <activity android:name=".listOfPatientsUnderSpecificDoctor" />
+        <activity android:name=".givePrescription"></activity>
+    </application>
+
+</manifest>

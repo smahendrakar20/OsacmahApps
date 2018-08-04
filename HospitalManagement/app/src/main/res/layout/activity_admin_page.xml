@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Page"
+        android:textSize="40dp"
+        android:id="@+id/textView"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/manageDoctorsButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Manage Doctors"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/manageAllDoctorsButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="All Doctors"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/managePatientsButton"
+            android:layout_marginTop="50dp"
+            android:textAllCaps="false"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Manage Patient"/>
+        <Button
+            android:id="@+id/manageAllPatientsButton"
+            android:textAllCaps="false"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="All Patients"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/adminPageLogoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LogOut"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp" />
+</RelativeLayout>

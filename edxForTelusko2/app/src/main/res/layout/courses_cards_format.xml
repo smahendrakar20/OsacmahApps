@@ -1,0 +1,104 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView20"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    android:background="@android:color/white"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardElevation="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/coursesimg"
+            android:id="@+id/courseImageId"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAlignment="textEnd"
+            android:text="Verified    "
+            android:id="@+id/greenLabel"
+            android:background="@android:color/holo_green_dark"
+            android:layout_below="@id/courseImageId"
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+        <TextView
+            android:layout_margin="8dp"
+            android:layout_below="@+id/greenLabel"
+            android:textAlignment="textStart"
+            android:id="@+id/companyTitleId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Microsoft"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_marginEnd="8dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="8dp"
+            android:layout_below="@+id/companyTitleId"
+            android:textAlignment="textStart"
+            android:id="@+id/courseTitleId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Introduction to python:Fundamentals"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_marginEnd="8dp"
+            android:text="Description here by so and so "
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="50dp"
+            android:id="@+id/descriptionId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/courseTitleId"/>
+        <TextView
+
+            android:layout_marginStart="8dp"
+            android:layout_below="@+id/descriptionId"
+            android:textAlignment="textStart"
+            android:id="@+id/currentId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Current"
+            android:textColor="@color/greyColor"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_marginBottom="3dp"
+            android:layout_marginStart="8dp"
+            android:layout_below="@+id/currentId"
+            android:textAlignment="textStart"
+            android:id="@+id/durationId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Self Paced"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp" />
+
+        <TextView
+
+            android:background="@android:color/holo_green_dark"
+            android:layout_below="@id/durationId"
+            android:layout_width="match_parent"
+            android:layout_height="4dp" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

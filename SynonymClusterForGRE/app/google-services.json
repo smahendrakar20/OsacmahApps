@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "811858084446",
+    "firebase_url": "https://synonym-clusters.firebaseio.com",
+    "project_id": "synonym-clusters",
+    "storage_bucket": "synonym-clusters.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811858084446:android:e7d919e50308d369",
+        "android_client_info": {
+          "package_name": "com.osm00apps.lrmah.synonymclusterforgre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811858084446-82aoihibjj17kg1nptqucmaij997uli9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.osm00apps.lrmah.synonymclusterforgre",
+            "certificate_hash": "10963451078413be66976ccd317c6708ab747c98"
+          }
+        },
+        {
+          "client_id": "811858084446-o9hgqtcgtuvth3gprmokl4ljippt1hdt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwVtRuAaf1OhJlbq2vFPT6pHiAo1gKd7o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811858084446-o9hgqtcgtuvth3gprmokl4ljippt1hdt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

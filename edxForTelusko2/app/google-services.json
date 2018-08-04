@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "282566910954",
+    "firebase_url": "https://edxfortelusko2-39021.firebaseio.com",
+    "project_id": "edxfortelusko2-39021",
+    "storage_bucket": "edxfortelusko2-39021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282566910954:android:36ffe392c24153c2",
+        "android_client_info": {
+          "package_name": "com.example.lrmah.edxfortelusko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282566910954-qiv6ii0784ova008l27jn1ojc87t8e31.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lrmah.edxfortelusko",
+            "certificate_hash": "10963451078413be66976ccd317c6708ab747c98"
+          }
+        },
+        {
+          "client_id": "282566910954-77g42r4gbkl7cjbancecbmkq9bgunu93.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "282566910954-77g42r4gbkl7cjbancecbmkq9bgunu93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDssugkWv4EsdliS9fLwSkQsFSBzFuhNX0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282566910954-77g42r4gbkl7cjbancecbmkq9bgunu93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

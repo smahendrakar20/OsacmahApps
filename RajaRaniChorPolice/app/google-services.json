@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "48801023911",
+    "firebase_url": "https://rajaranichorpolice-123.firebaseio.com",
+    "project_id": "rajaranichorpolice-123",
+    "storage_bucket": "rajaranichorpolice-123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48801023911:android:4edc9d06714d761c",
+        "android_client_info": {
+          "package_name": "com.example.lrmah.rajaranichorpolice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48801023911-4p86idj2nhig5dtqbprdkf476l6a3a17.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lrmah.rajaranichorpolice",
+            "certificate_hash": "10963451078413be66976ccd317c6708ab747c98"
+          }
+        },
+        {
+          "client_id": "48801023911-3bdlg8gtfe7dddtk42gdj9po3u8s0sng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXJM6GhspcfBvYDQ8J09PvghNjrWX72Zs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48801023911-3bdlg8gtfe7dddtk42gdj9po3u8s0sng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
