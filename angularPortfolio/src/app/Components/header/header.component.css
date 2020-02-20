@@ -1,15 +1,29 @@
-
+.header
+{
+  border-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  border-left: 2px;
+  border-right: 2px;
+  border-bottom: 2px;
+  border-color: black;
+  border-style: solid;
+}
 p {
-  margin: 0;
+  font-size: large;
+  margin: 6px;
   text-align: center;
   color: black;
-  background-color: yellow;
+  background-color: white;
 
 }
 h1 {
-  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xx-large;
+  margin-bottom: 2px;
+  margin-top: 2px;
   text-align: center;
   color: black;
-  background-color: yellow;
-
+  background-color: white;
 }

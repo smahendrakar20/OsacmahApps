@@ -1,3 +1,4 @@
+import { CardComponent } from './Components/Card/Card.component';
 import { FooterComponent } from './Components/Footer/Footer.component';
 import { ListComponent } from './Components/List/List.component';
 import { HeaderComponent } from './Components/header/header.component';
@@ -11,7 +12,8 @@ import { AppComponent } from './app.component';
       AppComponent,
       HeaderComponent,
       FooterComponent,
-      ListComponent
+      ListComponent,
+      CardComponent
    ],
    imports: [
       BrowserModule,
@@ -22,7 +24,8 @@ import { AppComponent } from './app.component';
       AppComponent,
       HeaderComponent,
       FooterComponent,
-      ListComponent
+      ListComponent,
+      CardComponent
    ]
 })
 export class AppModule { }

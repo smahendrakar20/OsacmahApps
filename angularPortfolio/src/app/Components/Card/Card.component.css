@@ -1,0 +1,27 @@
+.card
+{
+  margin: 20px;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  place-content: center;
+}
+h2{
+  padding-left: 10px;
+}
+.cardHeading
+{
+  border-bottom: 2px;
+  border-color: black;
+  border-style: solid;
+  margin: 2px;
+}
+
+.cardContent{
+  height: fit-content;
+  padding-left: 10px;
+  border-bottom: 1.5px;
+  border-color: black;
+  border-style: dotted;
+  margin: 2px;
+}
