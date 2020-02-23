@@ -1,8 +1,18 @@
 <html>
   <head></head>
   <body>
-    <div class="cards">
-    <app-Card></app-Card>
+
+    <div class="cards"  *ngFor="let section of Section">
+
+      <div class="top">
+          <h3> {{section.name}} </h3>
+      </div>
+
+      <div class="eachCard">
+          <app-Card [Inside] = "section.inside" ></app-Card>
+      </div>
+
+
   </div>
 
   </body>

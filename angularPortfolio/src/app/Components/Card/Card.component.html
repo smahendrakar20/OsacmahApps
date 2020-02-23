@@ -1,25 +1,28 @@
 <html>
   <head></head>
   <body>
-    <div class="card" >
-      <div class="cardHeading">
-        <h2>Education</h2>
+    <div class="card" *ngFor="let inside of Inside" >
+
+      <div *ngIf="inside.company || inside.title || inside.Degree || inside.location" class="flex-container">
+        <div class="leftBox">
+          <p *ngIf="inside.title" >{{inside.title}}</p>
+        <p *ngIf="inside.company">{{inside.company}}</p>
+        <p *ngIf="inside.Degree" >{{inside.Degree}}</p>
+        <p *ngIf="inside.location"> {{inside.location}}</p>
       </div>
 
-      <div class="cardContent">
-
-        <div class="Title">
-          <h3>Osmania University</h3>
-          <div class="Date"> <h5> June 2019 </h5></div>
-
-        </div>
-        <div class="Degree"> </div>
-        <div class="Courses"> </div>
-        <div class="Location"> </div>
-        <div class="Company"> </div>
-        <div class="Content"> </div>
+      <div class="rightBox">
+        <p *ngIf="inside.date"> {{inside.date}}</p>
+      </div>
 
       </div>
+
+      <ul>
+        <li *ngFor="let content of inside.content"> {{content}}</li>
+      </ul>
+
     </div>
+
+
   </body>
 </html>

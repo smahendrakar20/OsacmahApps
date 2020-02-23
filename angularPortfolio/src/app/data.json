@@ -1,0 +1,139 @@
+
+  [
+
+    {
+        "name":"Summary",
+        "inside": [
+              {
+              "content" : ["Motivated Software Engineer with strong exposure to designing and developing various creative Android applications and coding efficient algorithms"
+           , "Expertise in Core Java with strong practical understanding of Collections, Multithreading, Data Structures, Algorithms, Debugging & Exception Handling, and Object Oriented concepts like Inheritance, Abstraction, and Polymorphism."
+            , "Good knowledge of J2EE architecture, Servlets, JSP and proficient in applying Database Management concepts and operations like data manipulation and cursor control using JDBC API or PL/SQL. "
+           , "Proficiency in database programming using SQL and PL/SQL."
+            , "Profoundly curious with a zeal to learn new technology and solve complex problems"
+           , "Collaborator with leadership qualities, excellent communication skills and the ability to quickly adapt to new surroundings. " ]
+            }
+
+          ]
+    },
+
+    {
+        "name":"Education",
+        "inside": [
+            {
+              "company": "Syracuse University, College of Engineering & Computer Science",
+              "Degree": "Master of Science in Computer Science.",
+              "location": "Syracuse, NY",
+              "date":"May 2021",
+              "content" : [" Intro to Data Science ", "Design and Analysis of Algorithms ", "Advanced Computer Architecture"]
+            },
+            {
+            "company": "Osmania University",
+            "Degree": "Bachelor of Engineering, Computer Science",
+            "location": " Hyderabad, India ",
+            "date": " June 2019 ",
+            "content" : [ " Distributed Systems "," Web Programming & Services", "Object Oriented Development & Software Engineering"]
+            }
+          ]
+
+      },
+
+      {
+        "name":"Skills",
+        "inside": [
+            {
+              "title": "Programing Languages",
+              "content" : [ "Java", "Python", "PL/SQL", "C & C++" ]
+            },
+            {
+          "title": "Databases",
+          "content" : [ "MySQL", "SQLite ","Firebase" ]
+            },
+            {
+              "title": "Tools & Technologie",
+              "content" : [  "Android SDK" , "Keras and TensorFlow "]
+            },
+            {
+              "title": "Others",
+              "content" : [ "HTML & CSS", "JSON ", "XML" ]
+            }
+
+          ]
+
+    },
+
+      {
+        "name":"Experience",
+        "inside": [
+            {
+                "title": "Technology Analyst",
+                "company" : "Risk and Financial Advisory, Deloitte USI,",
+                "location" : " Hyderabad ",
+                "date": "June 2019 - August 2019 ",
+                "content" : [ "Analysed client’s (IT) controls and evaluated the IT environments for effectiveness of their controls to address the associated risks.", "Gained exposure to various technology risk domains like access control, authentication and IT controls" ]
+            },
+            {
+              "title": "Intern",
+              "company" : "Research Center Imarat",
+              "location" : "Hyderabad",
+              "date": " November 2018 - April 2019 ",
+              "content" : [ " Built a deep neural network, using Keras with TensorFlow backend, to find similarity between visual and thermal image and determine if they are of the same scene.", "Used Amazon AWS instance to train the model with over 30,000 image pairs and achieved an accuracy of 77 percent. Used NumPy, Matplotlib and OpenCV for image processing. " ]
+            },
+            {
+              "title": "Intern",
+              "company" : "Electronics Corporation of India Limited",
+              "location" : "Hyderabad",
+              "date": " May 2017 - June 2017 ",
+              "content" : ["Developed an Android application for Hospital Management System and used SQLite as database","Developed modules like Sign-ins for Doctors, Patients and Admins, Appointment bookings and records. "]
+            }
+
+          ]
+
+    },
+
+      {
+        "name":"Projects",
+        "inside": [
+            {
+                "title": "Synonym Cluster for GRE (Available on Play Store)",
+                "date": "April 2018 – August 2018",
+                "content" : [ "Designed an algorithm which forms clusters of similar words from the ones which the user has learnt." , " Used Oxford Dictionaries API to fetch the data for the database. " , " Coded various other modules such as the ability to save progress, add notes, voice search, mark and filter words and google sign-in. ", " Used JUnit to write local unit tests and Espresso for UI testing."  ]
+            },
+            {
+              "title": "Outwit – Multiplayer Android Game",
+              "date": " August 2017 – November 2017 ",
+              "content" : ["Used Google Firebase’s real-time database along with SQLite database to design an algorithm which allows players to create lobbies and play from anywhere while they are connected to the internet. "," Designed and developed in-game chat feature within the game’s lobby. "," Used Android fragments, custom views and animations to develop an intuitive user interface. "]
+            },
+            {
+              "title": "Ten Minutes with Telusko ",
+              "date": "   July 2018 – August 2018 ",
+              "content" : ["Collaborated with 2 members and developed a cs quiz app for Telusko Learning YouTube Channel."]
+            }
+
+          ]
+
+      },
+
+        {
+        "name":"Involvement",
+        "inside": [
+        {
+          "title": "Member",
+          "company" : " Hyderabad Youth Assembly-Street Cause (NGO)",
+          "location" : "Hyderabad",
+          "date": " June 2016 - August 2017  ",
+          "content" : ["Alongside planning and conducting various social events in various schools, I was also responsible to manage 30 team members from diverse backgrounds and delegate tasks to them throughout the year. "]
+        },
+        {
+          "title": "Student Branch Coordinator ",
+          "company" : " Computer Science Society of India, Hyderabad",
+          "location" : "Hyderabad",
+          "date": "  August 2016 - April 2017   ",
+          "content" : ["Organized CSI Annual College fest Fusion 2016"]
+        }
+
+          ]
+
+      }
+
+  ]
+

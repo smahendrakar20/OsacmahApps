@@ -21,11 +21,7 @@ import { AppComponent } from './app.component';
    ],
    providers: [],
    bootstrap: [
-      AppComponent,
-      HeaderComponent,
-      FooterComponent,
-      ListComponent,
-      CardComponent
+      AppComponent
    ]
 })
 export class AppModule { }

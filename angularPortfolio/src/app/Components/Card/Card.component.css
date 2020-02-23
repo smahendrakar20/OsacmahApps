@@ -1,27 +1,57 @@
 .card
 {
-  margin: 20px;
-  border: 2px;
-  border-color: black;
-  border-style: solid;
-  place-content: center;
+  padding: 5px;
+  margin: 10px;
+  border: 2px darkgrey dotted;
+  border-radius: 5px;
 }
-h2{
-  padding-left: 10px;
+
+.card h6{
+  margin: 5px;
 }
+
+.flex-container {
+  border-bottom: 1px dotted darkgrey;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.flex-container .leftBox{
+  text-align: left;
+}
+
+.flex-container .rightBox{
+  text-align: right;
+}
+
+.rightBox p{
+  background-color: lightgrey;
+
+}
+
+
+ul{
+  margin: 0;
+  padding-left: 15px;
+  list-style: square;
+  margin-top: 2px;
+  margin-left: 2px;
+  font-size: 16px;
+}
+p {
+  margin: 1px;
+  font-size: 16px;
+}
+
+
 .cardHeading
 {
-  border-bottom: 2px;
-  border-color: black;
-  border-style: solid;
   margin: 2px;
 }
 
 .cardContent{
   height: fit-content;
   padding-left: 10px;
-  border-bottom: 1.5px;
-  border-color: black;
-  border-style: dotted;
   margin: 2px;
 }
