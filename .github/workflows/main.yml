@@ -17,4 +17,4 @@ jobs:
       - name: run Lighthouse CI
         run: |
           npm install -g @lhci/cli@0.3.x
-          lhci autorun --upload.target=temporary-public-storage || echo "LHCI failed!"
+          lhci autorun --upload.serverBaseUrl="https://localhost:9001" --upload.token="5c1082db-0e0e-4ea1-a457-7150e42e7e58"
