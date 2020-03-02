@@ -11,7 +11,9 @@
       }
     },
     "upload": {
-      "target": "temporary-public-storage"
+      "target": "lhci"
+      "serverBaseUrl": "http://localhost:9001/app/projects",
+      "token": "5c1082db-0e0e-4ea1-a457-7150e42e7e58"
     }
   }
 }
